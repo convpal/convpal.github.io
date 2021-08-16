@@ -1,1 +1,0 @@
-# convpal.github.io
