@@ -2586,7 +2586,15 @@
     (function(){var id="wisnehv1kluqtxmcj37o4wxz48q20axlqsu";var js=document.createElement("script");js.setAttribute("type","text/javascript");js.setAttribute("src","//deploy.mopinion.com/js/pastease.js");document.getElementsByTagName("head")[0].appendChild(js);var t=setInterval(function(){try{new Pastease.load(id);clearInterval(t)}catch(e){}},50)})();
 </script>
 <!-- Mopinion end -->
-
+<script>
+    if ('serviceWorker' in navigator) {
+        // Register a service worker hosted at the root of the
+        // site using the default scope.
+        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+        }, /*catch*/ function (error) {
+        });
+    }
+</script>
 
 
     
