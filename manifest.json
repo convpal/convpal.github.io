@@ -1,33 +1,15 @@
 {
-	"name": "Waters",
-	"short_name": "Waters",
-	"background_color": "#3367D6",
-	"description": "Waters",
-	"display": "standalone",
-	"scope": "/",
-	"start_url": "/",
-	"theme_color": "#3492ff",
-	"icons": [
-		{
-			"src": "/etc.clientlibs/waters/clientlibs/clientlib-resources/resources/icon-70x70.png",
-			"sizes": "128x128",
-			"type": "image/png",
-			"purpose": "maskable"
-		},
-		{
-			"src": "/etc.clientlibs/waters/clientlibs/clientlib-resources/resources/icon-192x192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "/etc.clientlibs/waters/clientlibs/clientlib-resources/resources/icon-310x310.png",
-			"sizes": "558x558",
-			"type": "image/png"
-		},
-		{
-			"src": "/content/dam/waters/en/brand-assets/logos/waters-logo-black.svg",
-			"sizes": "any",
-			"type": "image/svg+xml"
-		}
-	]
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
